@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+#Developed By: DIVYA.A
+#Register Number: 212222230034
+
 # In[1]:Write your code to find the histogram of gray scale image and color image channels
 import cv2
 import matplotlib.pyplot as plt
