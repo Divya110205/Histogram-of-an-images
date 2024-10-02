@@ -2,8 +2,6 @@
 # coding: utf-8
 
 # In[1]:Write your code to find the histogram of gray scale image and color image channels
-
-
 import cv2
 import matplotlib.pyplot as plt
 gray_image=cv2.imread('img1.jpeg')
@@ -18,8 +16,6 @@ plt.axis('on')
 plt.show()
 
 # In[2]:Display the histogram of gray scale image and any one channel histogram from color image
-
-
 import numpy as np
 Gray_image = cv2.imread("img1.jpeg")
 Color_image = cv2.imread("img2.jpeg")
@@ -43,10 +39,8 @@ plt.xlabel("Grayscale Value")
 plt.ylabel("Pixel Count")
 plt.stem(color_hist)
 plt.show()
+
 # In[3]:Write the code to perform histogram equalization of the image. 
-
-
-
 gray_image = cv2.imread("img1.jpeg")
 grey=cv2.cvtColor(gray_image,cv2.COLOR_BGR2GRAY)
 plt.imshow(grey)
@@ -64,9 +58,6 @@ plt.show()
 eq = cv2.equalizeHist(grey)
 plt.imshow(eq)
 plt.show()
-
-
-
 
 
 
