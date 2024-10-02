@@ -1,4 +1,4 @@
-![Screenshot 2024-10-02 170606](https://github.com/user-attachments/assets/3dc716a9-d9e9-45d6-b94c-ab8ee6d2054c)# Histogram-of-an-images
+# Histogram-of-an-images
 ## Aim
 To obtain a histogram for finding the frequency of pixels in an Image with pixel values ranging from 0 to 255. Also write the code using OpenCV to perform histogram equalization.
 
@@ -11,8 +11,6 @@ Read the gray and color image using imread()
 
 ### Step2:
 Print the image using imshow().
-
-
 
 ### Step3:
 Use calcHist() function to mark the image in graph frequency for gray and color image.
